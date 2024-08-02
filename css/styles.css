@@ -1,0 +1,167 @@
+:root{
+    --color-uno: pink;
+    --color-dos: #FCE4EC;   
+    --color-tres: rgb(41, 63, 171);
+    --color-liston: white; /* Liston */
+    ;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--color-dos);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-uno);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.titulo {
+    margin: 10px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-liston);
+    padding: 10px 0;
+}
+
+.contenido-nav {
+    margin: 0 20px;
+}
+
+.contenido-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.contenido-nav a:hover {
+    color: pink;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contenedor_medio {
+    background-color: white;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: left;
+}
+
+.presentacion__texto {
+    margin: 20px 0;
+}
+
+.nombre-span {
+    color: blueviolet;
+}
+
+.imagen__foto {
+    display: block;
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(41, 63, 171);
+    color: gainsboro;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor__footer {
+    margin: 0;
+}
+
+.contenedor__footer p {
+    margin: 5px 0;
+}
+
+input{
+    width: 100%;
+}
+
+textarea{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.formulario {
+    width: 300px;
+    display: inline-block;
+    margin-left: 30px;
+    border:  12px;
+}
+
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+
+.formulario__boton{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formulario__titulo{
+    margin-bottom: 30px;
+}
+
+.nombre-span {
+    color: blueviolet;
+}
+
+.span__subtitulo{
+    font-weight: normal;
+    font-style: italic;
+}
+
+table {
+    width: 150px;
+    border-collapse: collapse;
+    margin-top: 0px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+@media (max-width: 1000px) {
+
+    .contenedor_medio {
+        position: relative;
+        margin-left: 30px;
+    }
+
+    .formulario {
+        width: 200px;
+
+    }
+}
+
+
